@@ -30,7 +30,7 @@ body{
 }
 
 header{
-    background-image:linear-gradient(360deg, var(--cor5), var(--cor1));
+    background-color: aqua;
     height: 130px;
     color: white;
 }
@@ -85,6 +85,7 @@ main article, aside, #pinf{
 
 main h1{
     margin-bottom: 15px;
+    text-align: center;
 }
 
 main p{
@@ -94,6 +95,7 @@ main p{
 
 main h2{
     margin: 10px 0px;
+    text-align: center;
 }
 
 main article img{
@@ -136,7 +138,7 @@ main #video iframe{
     }
 
 aside{
-    background-color: var(--cor1);
+    background-color:rgb(99, 99, 207);
     padding: 0px 5px;
     padding-bottom: 15px;
     padding-top: 5px;
@@ -153,7 +155,7 @@ aside ul{
 }
 
 footer{
-    background-color:var(--cor5) ;
+    background-color:black;
     color: white;
     text-align: center;
     margin-top: 10px;
