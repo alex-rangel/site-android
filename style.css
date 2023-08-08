@@ -1,0 +1,166 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&display=swap');
+
+@font-face {
+    font-family: 'Android';
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+}
+
+:root {
+--cor1: #7ae082;
+--cor2: #00E613;
+--cor3: #00B80F;
+--cor4: #298C31;
+--cor5: #006608;
+
+--fonte-padrao: arial, verdana, helvetica, sans-serif;
+--fonte-destaque:'Bebas Neue', sans-serif; 
+--fonte-android: 'Android', cursive; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--cor1);
+}
+
+header{
+    background-image:linear-gradient(360deg, var(--cor5), var(--cor1));
+    height: 130px;
+    color: white;
+}
+
+#tcabeca{
+    text-align: center;
+    padding: 15px;
+}
+
+#pcabeca{
+    text-align: center;
+    width: 400px;
+    margin: auto;
+}
+
+nav{
+    background-color: var(--cor5);
+}
+
+nav ul{
+display: inline-block;
+list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav ul li a:hover{
+    background-color: var(--cor1);
+    color: black;
+}
+
+main{
+    max-width: 850px;
+    margin: auto;
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+main article, aside, #pinf{
+    margin: 0px 15px;
+}
+
+main h1{
+    margin-bottom: 15px;
+}
+
+main p{
+    text-align: justify;
+    text-indent: 20px;
+}
+
+main h2{
+    margin: 10px 0px;
+}
+
+main article img{
+    width: 100%;
+}
+
+.irina{
+    margin-top: 10px;
+}
+
+main article #boneco{
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+main #video{
+    background-color: var(--cor5);
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 10px;
+    position: relative;
+    padding: 10px;
+    padding-bottom: 50%;
+}
+
+main #video iframe{
+ position: absolute;
+ top: 15px;
+ left: 15px;
+ margin: auto;
+ height: 90%;
+ width: 95%;
+}
+
+#psuper{
+    background-color: var(--cor3);
+    color: white;
+    margin: 0px 15px;
+    }
+
+aside{
+    background-color: var(--cor1);
+    padding: 0px 5px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+
+aside ul{
+    margin: 5px 0px;
+    list-style: none;
+    columns: 2;
+}
+
+#p2{
+    margin-bottom: 5px;
+}
+
+footer{
+    background-color:var(--cor5) ;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#pinf{
+    margin: 10px 15px;
+}
+
+
